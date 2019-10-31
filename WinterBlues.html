@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Art is a Journey of the soul lived in experiences, painted in colours, sung in melodies, written in verses..."><link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">  <link rel="stylesheet" type="text/css" href="vendors/css/grid.css"> <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"> <link rel="stylesheet" type="text/css" href="vendors/css/animate.css"> <link rel="stylesheet" type="text/css" href="resources/css/style.css"><link rel="stylesheet" type="text/css" href="resources/css/queries.css"><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+
+
+        <title>WINTER BLUES </title>
+    
+    </head>
+    <body>
+      <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">
+             <img src="logo2.jpg" class="logo_p" width="60" height="60" alt="">
+            </a>
+            <ul class="topnav-ul">
+              <a href="index.html" >Home</a>
+              <a href="index.html#bestworks">Bestworks</a>
+              <a href="index.html#catalogue" class="active">Catalogue</a>
+              <a href="#contact">Contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+          </ul>
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    </nav>
+
+    <div class="breadcrumb_container">
+        <ul class="breadcr">
+          <li><a href="#" class="breadcrumb-link">Home</a></li>
+          <li><a href="#" class="breadcrumb-link">Catalogue</a></li>
+          <li><a href="#" class="breadcrumb-link">Landscapes</a></li>
+          <li>WINTER BLUES  </li>
+        </ul>
+    </div>
+
+        <section class="section-aboutme" id="aboutme">
+            <div class="row">
+                <div class ="desc-heading">WINTER BLUES </div>
+            </div>
+            <div class="row">
+
+<!-- -----------------------------------------------------
+-------------------------------------------------------------------->
+
+
+                <div class="col span-1-of-2 desc-box db">
+                    <img id="wmyImg" src="nehab/painting/winter-blues.jpg" alt="WINTER BLUES " class="p_img app-screen js--wp-2">
+<!------------------------------------------------------->
+
+
+                    <div id="wmyModal" class="wmodal">
+                        <span class="wclose">&times;</span>
+                        <img class="wmodal-content" id="wimg01">
+                        <div id="wcaption"></div>
+                </div>
+                <script>
+                            var modal = document.getElementById("wmyModal");
+                            var img = document.getElementById("wmyImg");
+                            var modalImg = document.getElementById("wimg01");
+                            var captionText = document.getElementById("wcaption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            var span = document.getElementsByClassName("wclose")[0];
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                </script>
+                <br>
+                <p class="ws_p2">
+                  Oil on Canvas / year 2017<br>
+Large / 26 inches x 36 inches 
+
+</p>
+                </div>
+
+                <div class="col span-1-of-2 desc-box"> 
+                    <div class="works-step clearfix">
+                        <p class="ws_p">
+                         In the stillness of white,<br>
+Beneath overcast skies,<br>
+Heart searches...<br>
+Searches in the cold north winds, <br>
+In the frozen grass.<br>
+The memory of a spring left behind.<br>
+Regrets, there are none.<br>
+It is just a winter mood.<br>
+The wine is passion red.<br>
+The sky is a stormy blue.<br>
+
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div><center>
+                <p class="footer_p">
+                    Copyright &copy; 2019 by Meandering Brush. All rights reserved.
+                </p></center>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-61026110-2', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </body>
+    </html> 
