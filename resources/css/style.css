@@ -1080,3 +1080,14 @@ ul.breadcr li a:hover {
     text-decoration: bold;
     color: black;
 }
+
+.p_1{
+    font-size: 130%;
+    margin-top: 5%;
+    line-height: 190%;
+}
+.p_3{
+    font-size: 110%;
+    margin-top: 5%;
+    line-height: 190%;
+}
