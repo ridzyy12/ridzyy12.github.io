@@ -15,17 +15,24 @@
       <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.html">
-             <img src="logo2.jpg" class="logo_p" width="60" height="60" alt="">
-            </a>
-            <ul class="topnav-ul">
+             <img src="logo2.jpg" class="logo_p" width="50" height="50" alt="">
+            </a><br>
               <a href="index.html" >Home</a>
               <a href="index.html#bestworks">Bestworks</a>
-              <a href="index.html#catalogue" class="active">Catalogue</a>
-              <a href="#contact">Contact</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+              <div class="dropdown">
+                <button class="dropbtn">Catalogue 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="elemental-soulscapes.html">Soulscapes of Elements</a>
+                  <a href="mood-landscapes.html">Mood Landscapes</a>
+                  <a href="conceptual-potraits.html">Conceptual Potraits</a>
+                  <a href="vingettes.html">Vingettes</a>
+                </div>
+              </div> 
+              <a href="index.html#contact">Contact</a>
+              <a href="javascript:void(0);" style="font-size:22px;" class="icon" onclick="myFunction()">&#9776;
               </a>
-          </ul>
         </div>
 
         <script>
@@ -42,9 +49,9 @@
 
     <div class="breadcrumb_container">
         <ul class="breadcr">
-          <li><a href="#" class="breadcrumb-link">Home</a></li>
-          <li><a href="#" class="breadcrumb-link">Catalogue</a></li>
-          <li><a href="#" class="breadcrumb-link">Landscapes</a></li>
+          <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+          <li><a href="index.html#catalogue" class="breadcrumb-link">Catalogue</a></li>
+          <li><a href="vingettes.html" class="breadcrumb-link">Vingettes</a></li>
           <li>AWARENESS OF CAPTIVE DREAMS </li>
         </ul>
     </div>

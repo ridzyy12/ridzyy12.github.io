@@ -15,17 +15,24 @@
       <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.html">
-             <img src="logo2.jpg" class="logo_p" width="60" height="60" alt="">
-            </a>
-            <ul class="topnav-ul">
+             <img src="logo2.jpg" class="logo_p" width="50" height="50" alt="">
+            </a><br>
               <a href="index.html" >Home</a>
               <a href="index.html#bestworks">Bestworks</a>
-              <a href="index.html#catalogue" class="active">Catalogue</a>
+              <div class="dropdown">
+                <button class="dropbtn">Catalogue 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Soulscapes of Elements</a>
+                  <a href="#">Mood Landscapes</a>
+                  <a href="#">Conceptual Potraits</a>
+                  <a href="#">Vingettes</a>
+                </div>
+              </div> 
               <a href="#contact">Contact</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+              <a href="javascript:void(0);" style="font-size:22px;" class="icon" onclick="myFunction()">&#9776;
               </a>
-          </ul>
         </div>
 
         <script>
