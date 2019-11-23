@@ -32,10 +32,22 @@
 	margin-right: 0px;
 }
 h4{
-	font-size: 1.05rem;
+	font-size: 1.2rem;
 
 }
 
+
+@media only screen and (max-width: 767px) {
+  .myImg{
+  height: 215PX;
+  width: auto;
+}
+
+}
+
+.row{
+  padding-left: 5px;
+}
 
 
 .myImg:hover {opacity: 0.7;}

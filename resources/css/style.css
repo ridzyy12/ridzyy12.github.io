@@ -371,6 +371,7 @@ header {
 
 .works-step {
     margin-bottom: 50px;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 
 .works-step:last-of-type {}
@@ -392,6 +393,7 @@ header {
 }
 .works-step2 {
     margin-bottom: 50px;
+    
 }
 
 .works-step2:last-of-type {

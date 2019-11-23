@@ -139,7 +139,7 @@
     .app-screen { width: 65%; }
     .app-screen2 { width: 80%; }
     .desc-box:first-child { text-align: center;
-    padding-right: 0px; }
+    padding-right: 19px; }
 
     .works-step p{
     font-size: 130%;
@@ -155,6 +155,7 @@
     .works-step2 p{
     font-size: 110%;
     margin-top: 0;
+    line-height: 135%;
     }
     .works-step2 { margin-bottom: 20px; }
     .works-step2:last-of-type { margin-bottom: 20px; }
@@ -237,7 +238,9 @@
 
 
     .works-step p{
-    font-size: 110%;
+        font-size: 115%;
+    line-height: 135%;
+    padding-left: 3%;
     }
     h3{
         font-size: 150%;
@@ -261,11 +264,13 @@
     }
     
     .main-nav li {
-        font-size: 90%;
+        font-size: 100%;
+    line-height: 110%;
     }
     .p_1{
     font-size: 160%;
 }
+.works-step2 { margin-left: 6%; }
 
 }
 
