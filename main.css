@@ -36,7 +36,17 @@ h4{
 	font-size: 1.2rem;
 
 }
+.parag{
+  color: white;
+  float: left;
+}
+.header-line{
+  margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #808080;
+    padding-top: 10px;
 
+}
 
 @media only screen and (max-width: 767px) {
   .myImg{

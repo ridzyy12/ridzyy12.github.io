@@ -1198,3 +1198,16 @@ ul.breadcr li a:hover {
     text-align: left;
   }
 }
+
+
+.parag{
+  color: white;
+  float: left;
+}
+.header-line{
+  margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #808080;
+    padding-top: 10px;
+
+}
