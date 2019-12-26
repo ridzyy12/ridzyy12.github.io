@@ -2,7 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="1.css">
         <meta name="description" content="Art is a Journey of the soul lived in experiences, painted in colours, sung in melodies, written in verses...">
 
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -16,6 +19,36 @@
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Meandering Brush</title>
+        <style type="text/css">
+            .swiper-container {
+              width: 100%;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+            .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width: 350px;
+              height: 350px;
+            }
+
+          @media only screen and (max-width: 767px) {
+          .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width: 300px;
+              height: 300px;
+            }
+          }
+          @media only screen and (max-width: 576px) {
+          .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width: 250px;
+              height: 250px;
+            }
+          }
+        </style>
     
     </head>
     <body>
@@ -147,7 +180,31 @@
             </div>
         </section>
 
-        <section class="section-aboutme" id="about_meandering_brush">
+        <section class="section-cp">
+            <div class="row">
+                <div class ="desc-heading">Commissioned Projects</div>
+            </div>
+            <div class="row">
+                <div class="container">
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/4.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/2.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/5.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/3.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/1.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(nehab/CommProj/kashmir.jpg)"></div>
+                          
+                          
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                      </div>
+                  </div>
+              </div>
+        </section>
+
+        <section class="section-aboutme" id="about_meandering_brush" style="background-color: white;">
             <div class="row">
                 <div class ="desc-heading">MEANDERING BRUSH</div>
             </div>
@@ -252,24 +309,26 @@
           ga('create', 'UA-61026110-2', 'auto');
           ga('send', 'pageview');
         </script>
-        <!--<script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
+        <script src="2.js"></script>
 
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-              }
-              x[slideIndex-1].style.display = "block";  
-            }
-        </script> -->
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              coverflowEffect: {
+                rotate: 40,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+              },
+            });
+          </script>
     </body>  
 </html>

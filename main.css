@@ -19,7 +19,8 @@
     margin-top: 20px;
 }
 .myImg{
-	height: 180px;
+	
+  height: 130px;
 	width: auto;
 	padding: 2.5%;
 }
@@ -168,4 +169,15 @@ h4{
 .linking:active {
     color: white;
     
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #181818;
 }
