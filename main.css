@@ -1,3 +1,4 @@
+
 .desc-heading{
     line-height: 160%;
     position: relative;
@@ -180,4 +181,22 @@ footer p {
 
 footer {
     background-color: #181818;
+}
+.ws_p{
+    font-family: 'Dancing Script', cursive;
+    line-height: 150%;
+    font-size: 190%;
+}
+
+@media only screen and (max-width: 767px){
+
+
+.ws_p{
+        line-height: 170%;
+    }
+  }
+
+.divp{
+  padding: 4% 7% 7% 7%;
+    line-height: 200%;
 }
