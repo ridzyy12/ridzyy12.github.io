@@ -309,8 +309,11 @@ header {
     padding: 4% 0;
 
 }
-.section-cp{
+.theme-series{
     background-color: #f4f4f4;
+}
+.section-cp{
+    background-color: white;
     padding: 4% 0;
 }
 

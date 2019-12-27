@@ -48,6 +48,38 @@
               height: 250px;
             }
           }
+          * {box-sizing: border-box;}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
         </style>
     
     </head>
@@ -137,7 +169,7 @@
 
                 <div class="col span-1-of-2 desc-box"> 
                     <div class="works-step clearfix">
-                        <p>I am an artist and a published author. My art book "Meandering Brush" on my paintings of soul landscapes and poetry & thought has been published worldwide. My primary medium is oil and water colours. I am a self taught artist. I learned art in the school of life. I learned art by studying the Masters. A few contemporary artists from Europe have guided and mentored me in my art journey. I do soul landscapes. My paintings of nature and forests embody a colour aura and emotional atmosphere. I work with the energy of colours, forests, light and shadow and wind. My style is impressionism with a surrealist aura aligned to European & Russian art styles. My art brings in the healing of forests and is meditative. My published art book Meandering Brush, art book on my catalogue of paintings and poems is available with Amazon, Kindle, Notion Press. My art is aligned to Forest healing. My soul landscapes express the deep connect between nature and art. When Art embodies the energy of nature, art becomes meditative and healing.</p>
+                        <p>I am an artist and a published author. My art book "Meandering Brush" on my paintings of soul landscapes and poetry & thought has been published worldwide. My primary medium is oil and water colours. I am a self taught artist. I learned art in the school of life. I learned art by studying the Masters. I do soul landscapes. My paintings of nature and forests embody a colour aura and emotional atmosphere. I work with the energy of colours, forests, light and shadow and wind. My style is impressionism with a surrealist aura aligned to European & Russian art styles. My art brings in the healing of forests and is meditative. My published art book Meandering Brush, an art catalogue of paintings and poems is available with Amazon, Kindle, Notion Press. My art is aligned to Forest healing. My soul landscapes express the deep connect between nature and art. When Art embodies the energy of nature, art becomes meditative and healing. My art is inspired by the journey of my life. Each painting that I have created is a story I have lived. I feel the resonance of my feelings in the elements of nature and Universe. Hence, I tell my story and express my feelings in the colours of nature through the meanderings of my brush and my pen.</p>
                     </div>
                 </div>
             </div>
@@ -152,14 +184,14 @@
                     <center><a href="elemental-soulscapes.html"><img src="nehab/catalogue/the_edge1.jpg" alt="The Edge"></a></center>
                     <h3 class="categories"><a href="elemental-soulscapes.html">Soulscape of Elements</a></h3>
                     <div class="catalogue-desc">
-                        A SoulScape is both an extraordinary work of art and a process of self-discovery. It is an oil-on-canvas painting that captures the ‘inspired you’ – the inner qualities that make you truly unique.
+                        Fire, water, earth, aether, air, wind, clouds, sunshine, moonlight, all elements have a soul energy. Surrealist in genre, Soulscapes of Elements are my paintings that capture the soul of the forces of the Universe and weave them into stories of my heart.
                     </div>
                 </div>
                 <div class="col span-1-of-4 box zoom">
                     <center><a href="vingettes.html"><img src="nehab/catalogue/ws2.jpg" alt="Window Sill" class="vertical"></a></center>
                     <h3 class="categories"><a href="vingettes.html">Vignettes</a></h3>
                     <div class="catalogue-desc last">
-                        A vignette is a short piece of art which expresses very clearly and neatly the typical characteristics of the thing that it represents. It has no definite border, and shades off gradually at the edges into the background.
+                        Vignettes are small paintings, that are like little stories  on the wall. They are illustrative in genre and are like pages of a novel.
                     </div>
                 </div>
                 
@@ -167,22 +199,53 @@
                     <center><a href="mood-landscapes.html"><img src="nehab/catalogue/autumn_sanctum1.jpg" alt="Autumn Sanctum"></center>
                     <h3 class="categories"><a href="mood-landscapes.html">Mood Landscapes</a></h3>
                     <div class="catalogue-desc">
-                        Landscapes are works of art that feature scenes of nature. This includes mountains, lakes, gardens, rivers, and any scenic view. Landscapes can be oil paintings, watercolors, acrylic or prints of any kind.
+                        Mood Landscapes capture the aura of seasons and embody the healing vibe of nature in all its hues and moods. Impressionist in genre, my Mood Landscapes carry a distinct colour and kinetic energy. They are moments frozen in time, turned into portals of soul travel on the wall, like eternal windows.
                     </div>
                 </div>
                 <div class="col span-1-of-4 box zoom">
                     <center><a href="conceptual-potraits.html"><img src="nehab/catalogue/cf2.jpg" alt="Catching Fire" class="vertical"></a></center>
                     <h3 class="categories"><a href = "conceptual-potraits.html">Concept Portraits</a></h3>
                     <div class="catalogue-desc">
-                        Portrait is a genre in painting, where the intent is to represent a specific human subject. The purpose of a concept portrait is to create art for which the idea behind the portrait is more important than the finished art portrait.                      
+                        Concept portraits are emotive portraiture in fauvist and expressionist genre. These are portraits of emotions. The muse in concept portraits is the Alluring Feminine.
                     </div>
                 </div>
             </div>
         </section>
 
+
+
+        <section class="theme-series">
+            <div class="row">
+                <div class ="desc-heading" style="text-align: center;">Theme Series</div>
+                <div class="works-step clearfix" ><p>I have created to theme series namely : Soul Story and Window sill...</p></div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <center><div class="container2">
+                      <img src="nehab/that-smile.jpg" alt="Avatar" class="image">
+                      <div class="overlay">Soul Story</div>
+                    </div></center>
+                </div>
+                <div class="col span-1-of-2"><center>
+                    <div class="container2">
+                      <img src="nehab/a-summer-bloom.jpg" alt="Avatar" class="image">
+                      <div class="overlay">Window Sill</div>
+                    </div></center>
+                </div>
+            </div>
+        </section>
         <section class="section-cp">
             <div class="row">
                 <div class ="desc-heading">Commissioned Projects</div>
+                <div class="works-step clearfix" style="    padding-left: 5%;"><p style="text-align:left; line-height:170%; ">Photos when turned into paintings,become alive with a soul energy. A few paintings created as commissioned projects.<br><br> Commissioned painting pointers:</p>
+                    <ol type="1.">
+                        <li> The picture should speak to me and my style should speak to you.</li>
+                            <li>The fixed and the changable aspects of the picture to be prestated.(changes can be worked in even after the painting is  complete, in case of oil medium).</li>
+                                <li> Time period as per the dynamics of oil, water or acrylic.</li>
+                                    <li>Monetary details - negotiable.</li>
+                                        <li>My style is impressionism, Peredvizniki Realism, tonalist style, colour surrealism.</li>
+                                            <li>I am a landscape artist. I do nature and architechtural landscapes and still life</li>
+                                            <li> I do not do portraits or figurative.</li></ol></div> 
             </div>
             <div class="row">
                 <div class="container">
@@ -204,7 +267,7 @@
               </div>
         </section>
 
-        <section class="section-aboutme" id="about_meandering_brush" style="background-color: white;">
+        <section class="section-aboutme" id="about_meandering_brush">
             <div class="row">
                 <div class ="desc-heading">MEANDERING BRUSH</div>
             </div>
@@ -273,12 +336,12 @@
                                 <li><a href="https://www.amazon.fr/dp/1645465055">France</a></li>
                             </ul>
                             <br>
-                            <li>Email at: <a href="#">nehab@gmail.com</a></li>
+                            <li>Email at: <a href="mailto:claret.peony@gmail.com">claret.peony@gmail.com</a></li>
                         </div>
                     <div class="col span-1-of-2">
                         <ul class="social-links">
                             <li><a href="https://www.facebook.com/people/Neha-Bisht/100000363773894"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://twitter.com/nehab16?s=07"><i class="ion-social-twitter"></i></a></li>
                             <!--<li><a href="mailto:nehab@gmail.com"><i class="ion-android-mail"></i></a></li> -->
                             <li><a href="https://www.instagram.com/nehabisht16/?hl=en"><i class="ion-social-instagram"></i></a></li>
                         </ul>
